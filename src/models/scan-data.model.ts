@@ -1,8 +1,8 @@
-//export class ScanData{
-    //info:string;
-    //tipo:string;
+export class ScanData{
+    info:string;
+    tipo:string;
      
-     //constructor(tupoArchivo) {
-     //this.tipo = tipoArchivo;        
-  //}
-//}
+     constructor(tipoArchivo) {
+     this.tipo = tipoArchivo;        
+  }
+}
